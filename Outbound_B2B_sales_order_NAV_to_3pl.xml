@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<message>
+  <message-header>
+    <message-id>75890</message-id>
+    <transaction-name>sales-order-submission</transaction-name>
+    <partner-name>zound</partner-name>
+    <partner-password />
+    <source-url />
+    <create-timestamp>20181126</create-timestamp>
+    <response-request>0</response-request>
+  </message-header>
+  <sales-order-submission>
+    <header>
+      <customer-id>567265</customer-id>
+      <business-name />
+      <customer-information>
+        <customer-first-name>Nordstrom Direct Fulfillment</customer-first-name>
+        <customer-last-name />
+        <customer-address1>P.O. Box 870</customer-address1>
+        <customer-address2 />
+        <customer-address3 />
+        <customer-city>Seattle</customer-city>
+        <customer-state>WA</customer-state>
+        <customer-post-code>98111</customer-post-code>
+        <customer-country-code>US</customer-country-code>
+        <customer-phone1>888-428-2118</customer-phone1>
+        <customer-fax />
+        <customer-email />
+      </customer-information>
+      <shipment-information>
+        <ship-first-name>Tianna Moter</ship-first-name>
+        <ship-last-name />
+        <ship-address1>15720 E 4TH AVE</ship-address1>
+        <ship-address2>C 306</ship-address2>
+        <ship-address3 />
+        <ship-city>VERADALE</ship-city>
+        <ship-state>WA</ship-state>
+        <ship-post-code>99037</ship-post-code>
+        <ship-country-code>US</ship-country-code>
+        <ship-phone1>888-428-2118</ship-phone1>
+        <ship-email />
+        <ship-via />
+        <ship-request-date>20181126</ship-request-date>
+        <dock-date />
+        <ship-to-code />
+      </shipment-information>
+      <purchase-order-information>
+        <purchase-order-number>76515173</purchase-order-number>
+        <purchase-order-amount />
+        <currency-code />
+        <comments />
+      </purchase-order-information>
+      <order-header>
+        <customer-order-number>SO4008773</customer-order-number>
+        <customer-order-date>20181125</customer-order-date>
+        <order-type>STOCK</order-type>
+        <order-reference>CUS000600</order-reference>
+        <customer-line-department>0000</customer-line-department>
+        <customer-channel-type>0000</customer-channel-type>
+        <customer-group-account>DROP</customer-group-account>
+        <customer-seller-code />
+        <vendor-number>5118792</vendor-number>
+        <third-party-id>90846885399999</third-party-id>
+        <order-total-net>60</order-total-net>
+        <order-tax1>0</order-tax1>
+      </order-header>
+    </header>
+    <detail>
+      <line-item>
+        <line-no>10000</line-no>
+        <item-code>04091742</item-code>
+        <universal-product-code>7340055332941</universal-product-code>
+        <quantity>1</quantity>
+        <unit-of-measure>PCS</unit-of-measure>
+        <base-price>60</base-price>
+        <line-tax1>0</line-tax1>
+        <line-name-value>
+          <line-attribute-name>warranty-item</line-attribute-name>
+          <line-attribute-value>false</line-attribute-value>
+        </line-name-value>
+      </line-item>
+    </detail>
+  </sales-order-submission>
+  <transactionInfo>
+    <eventID>SerializeSalesOrders</eventID>
+  </transactionInfo>
+</message>
