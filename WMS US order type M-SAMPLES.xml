@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<message>
+  <message-header>
+    <message-id>19335</message-id>
+    <transaction-name>sales-order-submission</transaction-name>
+    <partner-name>zound</partner-name>
+    <partner-password />
+    <source-url />
+    <create-timestamp>20180507</create-timestamp>
+    <response-request>0</response-request>
+  </message-header>
+  <sales-order-submission>
+    <header>
+      <customer-id>563539</customer-id>
+      <business-name />
+      <customer-information>
+        <customer-first-name>Zound Industries USA Marketing (Black)</customer-first-name>
+        <customer-last-name />
+        <customer-address1>260 W 39th St, Ste 201</customer-address1>
+        <customer-address2 />
+        <customer-address3 />
+        <customer-city>New York</customer-city>
+        <customer-state>NY</customer-state>
+        <customer-post-code>10013</customer-post-code>
+        <customer-country-code>US</customer-country-code>
+        <customer-phone1 />
+        <customer-fax />
+        <customer-email>teresa@zoundindustries.com</customer-email>
+      </customer-information>
+      <shipment-information>
+        <ship-first-name>Arsta Logistik &amp; Lagerservice AB</ship-first-name>
+        <ship-last-name />
+        <ship-address1>Elektronvägen 1</ship-address1>
+        <ship-address2 />
+        <ship-address3 />
+        <ship-city>Huddinge</ship-city>
+        <ship-state />
+        <ship-post-code>141 49</ship-post-code>
+        <ship-country-code>SWEDEN</ship-country-code>
+        <ship-phone1 />
+        <ship-email>teresa@zoundindustries.com</ship-email>
+        <ship-via>CUST</ship-via>
+        <ship-request-date>20180507</ship-request-date>
+        <dock-date />
+        <ship-to-code />
+      </shipment-information>
+      <purchase-order-information>
+        <purchase-order-number>TERESA - SWEDEN</purchase-order-number>
+        <purchase-order-amount />
+        <currency-code />
+        <comments />
+      </purchase-order-information>
+      <order-header>
+        <customer-order-number>SO4001624</customer-order-number>
+        <customer-order-date>20180425</customer-order-date>
+        <order-type>M-SAMPLES</order-type>
+        <order-reference>CUS000526</order-reference>
+        <customer-line-department />
+        <customer-channel-type />
+        <customer-group-account />
+        <customer-seller-code />
+        <vendor-number />
+        <third-party-id />
+        <order-total-net>0</order-total-net>
+        <order-tax1>0</order-tax1>
+        <header-name-value>
+          <attribute-name>international-duties-and-taxes-billing-to</attribute-name>
+          <attribute-value>C</attribute-value>
+        </header-name-value>
+        <header-name-value>
+          <attribute-name>international-freight-billing-to</attribute-name>
+          <attribute-value>E</attribute-value>
+        </header-name-value>
+        <header-name-value>
+          <attribute-name>international-incoterm</attribute-name>
+          <attribute-value>DAP</attribute-value>
+        </header-name-value>
+      </order-header>
+    </header>
+    <detail>
+      <line-item>
+        <line-no>10000</line-no>
+        <item-code>04092186</item-code>
+        <universal-product-code>7340055357807</universal-product-code>
+        <quantity>60</quantity>
+        <unit-of-measure>PCS</unit-of-measure>
+        <base-price>0</base-price>
+        <line-tax1>0</line-tax1>
+        <line-name-value>
+          <line-attribute-name>warranty-item</line-attribute-name>
+          <line-attribute-value>false</line-attribute-value>
+        </line-name-value>
+      </line-item>
+    </detail>
+  </sales-order-submission>
+  <transactionInfo>
+    <eventID>SerializeSalesOrders</eventID>
+  </transactionInfo>
+</message>

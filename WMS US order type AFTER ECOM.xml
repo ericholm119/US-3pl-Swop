@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<message>
+  <message-header>
+    <message-id>56924</message-id>
+    <transaction-name>sales-order-submission</transaction-name>
+    <partner-name>zound</partner-name>
+    <partner-password />
+    <source-url />
+    <create-timestamp>20181001</create-timestamp>
+    <response-request>0</response-request>
+  </message-header>
+  <sales-order-submission>
+    <header>
+      <customer-id>565598</customer-id>
+      <business-name />
+      <customer-information>
+        <customer-first-name>Raul  Ocampo </customer-first-name>
+        <customer-last-name />
+        <customer-address1>Renaissance Studios </customer-address1>
+        <customer-address2>131 Avenida Victoria</customer-address2>
+        <customer-address3 />
+        <customer-city>San Clemente </customer-city>
+        <customer-state>CA</customer-state>
+        <customer-post-code>92672</customer-post-code>
+        <customer-country-code>US</customer-country-code>
+        <customer-phone1 />
+        <customer-fax />
+        <customer-email />
+      </customer-information>
+      <shipment-information>
+        <ship-first-name>Raul  Ocampo </ship-first-name>
+        <ship-last-name />
+        <ship-address1>Renaissance Studios </ship-address1>
+        <ship-address2>131 Avenida Victoria</ship-address2>
+        <ship-address3 />
+        <ship-city>San Clemente </ship-city>
+        <ship-state>CA</ship-state>
+        <ship-post-code>92672</ship-post-code>
+        <ship-country-code>US</ship-country-code>
+        <ship-phone1>+1-949-303-3844</ship-phone1>
+        <ship-email>1tattooraul@gmail.com</ship-email>
+        <ship-via>FX2D</ship-via>
+        <ship-request-date>20181001</ship-request-date>
+        <dock-date />
+        <ship-to-code />
+      </shipment-information>
+      <purchase-order-information>
+        <purchase-order-number />
+        <purchase-order-amount />
+        <currency-code />
+        <comments />
+      </purchase-order-information>
+      <order-header>
+        <customer-order-number>12100037917</customer-order-number>
+        <customer-order-date>20181001</customer-order-date>
+        <order-type>AFTER ECOM</order-type>
+        <order-reference>WEB_US_CA</order-reference>
+        <customer-line-department />
+        <customer-channel-type />
+        <customer-group-account />
+        <customer-seller-code />
+        <vendor-number />
+        <third-party-id />
+        <order-total-net>0</order-total-net>
+        <order-tax1>0</order-tax1>
+      </order-header>
+    </header>
+    <detail>
+      <line-item>
+        <line-no>10000</line-no>
+        <item-code>04092138</item-code>
+        <universal-product-code>7300000100018</universal-product-code>
+        <quantity>1</quantity>
+        <unit-of-measure>PCS</unit-of-measure>
+        <base-price>0</base-price>
+        <line-tax1>0</line-tax1>
+        <line-name-value>
+          <line-attribute-name>warranty-item</line-attribute-name>
+          <line-attribute-value>true</line-attribute-value>
+        </line-name-value>
+      </line-item>
+    </detail>
+  </sales-order-submission>
+  <transactionInfo>
+    <eventID>SerializeSalesOrders</eventID>
+  </transactionInfo>
+</message>

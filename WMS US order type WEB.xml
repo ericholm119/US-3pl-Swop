@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<message>
+  <message-header>
+    <message-id>37980</message-id>
+    <transaction-name>sales-order-submission</transaction-name>
+    <partner-name>zound</partner-name>
+    <partner-password />
+    <source-url />
+    <create-timestamp>20180719</create-timestamp>
+    <response-request>0</response-request>
+  </message-header>
+  <sales-order-submission>
+    <header>
+      <customer-id>565598</customer-id>
+      <business-name />
+      <customer-information>
+        <customer-first-name>Shaun Smith</customer-first-name>
+        <customer-last-name />
+        <customer-address1>2457 West Highmeadow Court</customer-address1>
+        <customer-address2 />
+        <customer-address3 />
+        <customer-city>Baton Rouge</customer-city>
+        <customer-state>LA</customer-state>
+        <customer-post-code>70816</customer-post-code>
+        <customer-country-code>US</customer-country-code>
+        <customer-phone1 />
+        <customer-fax />
+        <customer-email />
+      </customer-information>
+      <shipment-information>
+        <ship-first-name>Shaun Smith</ship-first-name>
+        <ship-last-name />
+        <ship-address1>2457 West Highmeadow Court</ship-address1>
+        <ship-address2 />
+        <ship-address3 />
+        <ship-city>Baton Rouge</ship-city>
+        <ship-state>LA</ship-state>
+        <ship-post-code>70816</ship-post-code>
+        <ship-country-code>US</ship-country-code>
+        <ship-phone1>+12257734754</ship-phone1>
+        <ship-email>sms6323@gmail.com</ship-email>
+        <ship-via>FX2D</ship-via>
+        <ship-request-date>20180719</ship-request-date>
+        <dock-date />
+        <ship-to-code />
+      </shipment-information>
+      <purchase-order-information>
+        <purchase-order-number>1525319660913020</purchase-order-number>
+        <purchase-order-amount />
+        <currency-code />
+        <comments />
+      </purchase-order-information>
+      <order-header>
+        <customer-order-number>12100034562</customer-order-number>
+        <customer-order-date>20180719</customer-order-date>
+        <order-type>WEB</order-type>
+        <order-reference>WEB_US_LA</order-reference>
+        <customer-line-department />
+        <customer-channel-type />
+        <customer-group-account />
+        <customer-seller-code />
+        <vendor-number />
+        <third-party-id />
+        <order-total-net>17.9</order-total-net>
+        <order-tax1>0</order-tax1>
+      </order-header>
+    </header>
+    <detail>
+      <line-item>
+        <line-no>10000</line-no>
+        <item-code>04091735</item-code>
+        <universal-product-code>7340055333177</universal-product-code>
+        <quantity>1</quantity>
+        <unit-of-measure>PCS</unit-of-measure>
+        <base-price>10</base-price>
+        <line-tax1>0</line-tax1>
+        <line-name-value>
+          <line-attribute-name>warranty-item</line-attribute-name>
+          <line-attribute-value>false</line-attribute-value>
+        </line-name-value>
+      </line-item>
+    </detail>
+  </sales-order-submission>
+  <transactionInfo>
+    <eventID>SerializeSalesOrders</eventID>
+  </transactionInfo>
+</message>

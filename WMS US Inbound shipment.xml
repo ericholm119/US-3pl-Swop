@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<message>
+  <message-header>
+    <message-id>289047083</message-id>
+    <transaction-name>ship-advice</transaction-name>
+    <partner-name>zound</partner-name>
+    <source-url>http://www.brightpoint.com</source-url>
+    <create-timestamp>20181129000619</create-timestamp>
+    <response-request>1</response-request>
+  </message-header>
+  <ship-advice>
+    <header>
+      <customer-id>565598</customer-id>
+      <shipment-information>
+        <ship-first-name>Marisel</ship-first-name>
+        <ship-last-name>Mauleon</ship-last-name>
+        <ship-address1>PO Box 367939</ship-address1>
+        <ship-city>SAN JUAN</ship-city>
+        <ship-state>PR</ship-state>
+        <ship-post-code>00936</ship-post-code>
+        <ship-country-code>US</ship-country-code>
+        <ship-phone1>+17873627359</ship-phone1>
+        <ship-email>marisel.mauleon@upr.edu</ship-email>
+        <ship-via>USPP</ship-via>
+        <ship-request-date>20181127</ship-request-date>
+        <ship-request-warehouse>ZOU7</ship-request-warehouse>
+      </shipment-information>
+      <purchase-order-information>
+        <purchase-order-number>1615432896776292</purchase-order-number>
+        <account-description />
+        <purchase-order-amount>0.0</purchase-order-amount>
+        <currency-code>USD</currency-code>
+      </purchase-order-information>
+      <order-header>
+        <customer-order-number>12100042585</customer-order-number>
+        <customer-order-date>20181127</customer-order-date>
+        <order-reference>WEB_US_PR</order-reference>
+        <order-sub-total>0.0</order-sub-total>
+        <order-discount>0.0</order-discount>
+        <order-tax1>0.0</order-tax1>
+        <order-tax2>0.0</order-tax2>
+        <order-tax3>0.0</order-tax3>
+        <order-shipment-charge>0.0</order-shipment-charge>
+        <order-total-net>0.0</order-total-net>
+        <order-status>Completed</order-status>
+        <order-type />
+        <brightpoint-order-number>186699000</brightpoint-order-number>
+        <warehouse-id>ZOU7</warehouse-id>
+        <ship-date>20181128</ship-date>
+      </order-header>
+    </header>
+    <detail>
+      <line-item>
+        <line-no>10000</line-no>
+        <item-code>04091742</item-code>
+        <universal-product-code>7340055332965</universal-product-code>
+        <ship-quantity>1.0</ship-quantity>
+        <unit-of-measure>EA</unit-of-measure>
+        <serial-list>
+          <serial-numbers>
+            <esn>73400553G73850F0005430</esn>
+          </serial-numbers>
+        </serial-list>
+        <line-status />
+        <base-price>99.99</base-price>
+        <line-tax1>0.0</line-tax1>
+        <bill-of-lading>9205590154903414755127</bill-of-lading>
+        <pallet-id>PC61165869</pallet-id>
+        <scac>USPP</scac>
+        <container-id>PC61165869</container-id>
+      </line-item>
+    </detail>
+  </ship-advice>
+  <transactionInfo>
+    <eventID>289045566</eventID>
+  </transactionInfo>
+</message>

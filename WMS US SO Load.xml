@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<message>
+  <message-header>
+    <message-id>289172337</message-id>
+    <transaction-name>sales-order-success</transaction-name>
+    <partner-name>zound</partner-name>
+    <source-url>http://www.brightpoint.com</source-url>
+    <create-timestamp>2018-11-29T11:44:02.618-05:00</create-timestamp>
+    <response-request>1</response-request>
+  </message-header>
+  <sales-order-success>
+    <header>
+      <customer-id>565598</customer-id>
+      <shipment-information>
+        <ship-first-name>Marie Brantley</ship-first-name>
+        <ship-address1>201 Pamela Drive</ship-address1>
+        <ship-city>East Dublin</ship-city>
+        <ship-state>GA</ship-state>
+        <ship-post-code>31027</ship-post-code>
+        <ship-country-code>US</ship-country-code>
+        <ship-phone1>+14782749448</ship-phone1>
+        <ship-email>Ladybug31027@yahoo.com</ship-email>
+        <ship-via>FX2D</ship-via>
+      </shipment-information>
+      <purchase-order-information>
+        <purchase-order-number>4715435077205331</purchase-order-number>
+        <account-description />
+        <comments>debbi.short@ingrammicro.com;support@zoundindustries.com</comments>
+        <comments>20181129</comments>
+      </purchase-order-information>
+      <order-header>
+        <customer-order-number>12100042925</customer-order-number>
+        <customer-order-date>20181129</customer-order-date>
+        <brightpoint-order-number>186836232</brightpoint-order-number>
+        <order-reference>WEB_US_GA</order-reference>
+        <order-sub-total>0</order-sub-total>
+        <order-discount>0</order-discount>
+        <order-tax1>0</order-tax1>
+        <order-tax2>0</order-tax2>
+        <order-tax3>0</order-tax3>
+        <order-shipment-charge>0</order-shipment-charge>
+        <order-total-net>79.99</order-total-net>
+      </order-header>
+    </header>
+    <detail>
+      <line-item>
+        <line-no>10000</line-no>
+        <brightpoint-line-no>1</brightpoint-line-no>
+        <item-code>04092182</item-code>
+        <universal-product-code>7340055352246</universal-product-code>
+        <quantity>1</quantity>
+        <line-status>ACCEPTED</line-status>
+        <customer-order-date>20181129</customer-order-date>
+        <base-price>79.99</base-price>
+        <line-discount>0</line-discount>
+        <line-tax1>0</line-tax1>
+        <line-tax2>0</line-tax2>
+        <line-tax3>0</line-tax3>
+      </line-item>
+    </detail>
+  </sales-order-success>
+  <transactionInfo>
+    <eventID>289172337</eventID>
+  </transactionInfo>
+</message>

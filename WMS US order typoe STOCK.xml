@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message>
+  <message-header>
+    <message-id>80566</message-id>
+    <transaction-name>sales-order-submission</transaction-name>
+    <partner-name>zound</partner-name>
+    <partner-password />
+    <source-url />
+    <create-timestamp>20181129</create-timestamp>
+    <response-request>0</response-request>
+  </message-header>
+  <sales-order-submission>
+    <header>
+      <customer-id>563539</customer-id>
+      <business-name />
+      <customer-information>
+        <customer-first-name>Need Supply</customer-first-name>
+        <customer-last-name />
+        <customer-address1>3100 West Cary Street</customer-address1>
+        <customer-address2 />
+        <customer-address3 />
+        <customer-city>Richmond</customer-citxy>
+        <customer-state>VA</customer-state>
+        <customer-post-code>23221</customer-post-code>
+        <customer-country-code>US</customer-country-code>
+        <customer-phone1 />
+        <customer-fax />
+        <customer-email />
+      </customer-information>
+      <shipment-information>
+        <ship-first-name>FC01</ship-first-name>
+        <ship-last-name />
+        <ship-address1>540 Eastpark Ct, Suite D </ship-address1>
+        <ship-address2 />
+        <ship-address3 />
+        <ship-city>SANDSTON</ship-city>
+        <ship-state>VA</ship-state>
+        <ship-post-code>23150</ship-post-code>
+        <ship-country-code>US</ship-country-code>
+        <ship-phone1 />
+        <ship-email />
+        <ship-via />
+        <ship-request-date>20181129</ship-request-date>
+        <dock-date>20181218</dock-date>
+        <ship-to-code />
+      </shipment-information>
+      <purchase-order-information>
+        <purchase-order-number>NS MARSHALL NOV 2018</purchase-order-number>
+        <purchase-order-amount />
+        <currency-code />
+        <comments />
+      </purchase-order-information>
+      <order-header>
+        <customer-order-number>SO4009015</customer-order-number>
+        <customer-order-date>20181129</customer-order-date>
+        <order-type>STOCK</order-type>
+        <order-reference>CU4000439</order-reference>
+        <customer-line-department />
+        <customer-channel-type />
+        <customer-group-account />
+        <customer-seller-code />
+        <vendor-number />
+        <third-party-id />
+        <order-total-net>2036.56</order-total-net>
+        <order-tax1>0</order-tax1>
+      </order-header>
+    </header>
+    <detail>
+      <line-item>
+        <line-no>10000</line-no>
+        <item-code>1002487</item-code>
+        <universal-product-code>7340055358057</universal-product-code>
+        <quantity>6</quantity>
+        <unit-of-measure>PCS</unit-of-measure>
+        <base-price>210</base-price>
+        <line-tax1>0</line-tax1>
+        <line-name-value>
+          <line-attribute-name>warranty-item</line-attribute-name>
+          <line-attribute-value>false</line-attribute-value>
+        </line-name-value>
+      </line-item>
+      <line-item>
+        <line-no>20000</line-no>
+        <item-code>1002481</item-code>
+        <universal-product-code>7340055357890</universal-product-code>
+        <quantity>4</quantity>
+        <unit-of-measure>PCS</unit-of-measure>
+        <base-price>150</base-price>
+        <line-tax1>0</line-tax1>
+        <line-name-value>
+          <line-attribute-name>warranty-item</line-attribute-name>
+          <line-attribute-value>false</line-attribute-value>
+        </line-name-value>
+      </line-item>
+    </detail>
+  </sales-order-submission>
+  <transactionInfo>
+    <eventID>SerializeSalesOrders</eventID>
+  </transactionInfo>
+</message>

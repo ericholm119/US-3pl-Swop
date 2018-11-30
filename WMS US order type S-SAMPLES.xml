@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<message>
+  <message-header>
+    <message-id>51921</message-id>
+    <transaction-name>sales-order-submission</transaction-name>
+    <partner-name>zound</partner-name>
+    <partner-password />
+    <source-url />
+    <create-timestamp>20180907</create-timestamp>
+    <response-request>0</response-request>
+  </message-header>
+  <sales-order-submission>
+    <header>
+      <customer-id>565364</customer-id>
+      <business-name />
+      <customer-information>
+        <customer-first-name>Viastara, LLC</customer-first-name>
+        <customer-last-name />
+        <customer-address1>2660 Sarnen Street, Ste 200</customer-address1>
+        <customer-address2 />
+        <customer-address3 />
+        <customer-city>San Diego</customer-city>
+        <customer-state>CA</customer-state>
+        <customer-post-code>92130</customer-post-code>
+        <customer-country-code>US</customer-country-code>
+        <customer-phone1>905-819-0155</customer-phone1>
+        <customer-fax>invoices@viastara.com</customer-fax>
+        <customer-email>BUAudio@viastara.com</customer-email>
+      </customer-information>
+      <shipment-information>
+        <ship-first-name>Viastara, LLC c/o On-Time Logistics</ship-first-name>
+        <ship-last-name />
+        <ship-address1>2323 Ave. Costa Este, Suite 500</ship-address1>
+        <ship-address2 />
+        <ship-address3 />
+        <ship-city>San Diego</ship-city>
+        <ship-state>CA</ship-state>
+        <ship-post-code>92154</ship-post-code>
+        <ship-country-code>US</ship-country-code>
+        <ship-phone1>905-819-0155</ship-phone1>
+        <ship-email>BUAudio@viastara.com</ship-email>
+        <ship-via>FX01</ship-via>
+        <ship-request-date>20180907</ship-request-date>
+        <dock-date />
+        <ship-to-code />
+      </shipment-information>
+      <purchase-order-information>
+        <purchase-order-number>VIASTARA SUMMIT</purchase-order-number>
+        <purchase-order-amount />
+        <currency-code />
+        <comments />
+      </purchase-order-information>
+      <order-header>
+        <customer-order-number>SO4006123</customer-order-number>
+        <customer-order-date>20180907</customer-order-date>
+        <order-type>S-SAMPLES</order-type>
+        <order-reference>CUS000492</order-reference>
+        <customer-line-department />
+        <customer-channel-type />
+        <customer-group-account />
+        <customer-seller-code />
+        <vendor-number />
+        <third-party-id />
+        <order-total-net>0</order-total-net>
+        <order-tax1>0</order-tax1>
+      </order-header>
+    </header>
+    <detail>
+      <line-item>
+        <line-no>10000</line-no>
+        <item-code>04092186</item-code>
+        <universal-product-code>7340055357807</universal-product-code>
+        <quantity>1</quantity>
+        <unit-of-measure>PCS</unit-of-measure>
+        <base-price>0</base-price>
+        <line-tax1>0</line-tax1>
+        <line-name-value>
+          <line-attribute-name>warranty-item</line-attribute-name>
+          <line-attribute-value>false</line-attribute-value>
+        </line-name-value>
+      </line-item>
+      <line-item>
+        <line-no>20000</line-no>
+        <item-code>04092182</item-code>
+        <universal-product-code>7340055352246</universal-product-code>
+        <quantity>1</quantity>
+        <unit-of-measure>PCS</unit-of-measure>
+        <base-price>0</base-price>
+        <line-tax1>0</line-tax1>
+        <line-name-value>
+          <line-attribute-name>warranty-item</line-attribute-name>
+          <line-attribute-value>false</line-attribute-value>
+        </line-name-value>
+      </line-item>
+      <line-item>
+        <line-no>30000</line-no>
+        <item-code>04092175</item-code>
+        <universal-product-code>7340055351997</universal-product-code>
+        <quantity>1</quantity>
+        <unit-of-measure>PCS</unit-of-measure>
+        <base-price>0</base-price>
+        <line-tax1>0</line-tax1>
+        <line-name-value>
+          <line-attribute-name>warranty-item</line-attribute-name>
+          <line-attribute-value>false</line-attribute-value>
+        </line-name-value>
+      </line-item>
+      <line-item>
+        <line-no>40000</line-no>
+        <item-code>04092176</item-code>
+        <universal-product-code>7340055352031</universal-product-code>
+        <quantity>1</quantity>
+        <unit-of-measure>PCS</unit-of-measure>
+        <base-price>0</base-price>
+        <line-tax1>0</line-tax1>
+        <line-name-value>
+          <line-attribute-name>warranty-item</line-attribute-name>
+          <line-attribute-value>false</line-attribute-value>
+        </line-name-value>
+      </line-item>
+      <line-item>
+        <line-no>50000</line-no>
+        <item-code>04092177</item-code>
+        <universal-product-code>7340055352079</universal-product-code>
+        <quantity>1</quantity>
+        <unit-of-measure>PCS</unit-of-measure>
+        <base-price>0</base-price>
+        <line-tax1>0</line-tax1>
+        <line-name-value>
+          <line-attribute-name>warranty-item</line-attribute-name>
+          <line-attribute-value>false</line-attribute-value>
+        </line-name-value>
+      </line-item>
+      <line-item>
+        <line-no>60000</line-no>
+        <item-code>04092110</item-code>
+        <universal-product-code>7340055350396</universal-product-code>
+        <quantity>1</quantity>
+        <unit-of-measure>PCS</unit-of-measure>
+        <base-price>0</base-price>
+        <line-tax1>0</line-tax1>
+        <line-name-value>
+          <line-attribute-name>warranty-item</line-attribute-name>
+          <line-attribute-value>false</line-attribute-value>
+        </line-name-value>
+      </line-item>
+      <line-item>
+        <line-no>70000</line-no>
+        <item-code>04092111</item-code>
+        <universal-product-code>7340055350433</universal-product-code>
+        <quantity>1</quantity>
+        <unit-of-measure>PCS</unit-of-measure>
+        <base-price>0</base-price>
+        <line-tax1>0</line-tax1>
+        <line-name-value>
+          <line-attribute-name>warranty-item</line-attribute-name>
+          <line-attribute-value>false</line-attribute-value>
+        </line-name-value>
+      </line-item>
+      <line-item>
+        <line-no>80000</line-no>
+        <item-code>04092112</item-code>
+        <universal-product-code>7340055350471</universal-product-code>
+        <quantity>1</quantity>
+        <unit-of-measure>PCS</unit-of-measure>
+        <base-price>0</base-price>
+        <line-tax1>0</line-tax1>
+        <line-name-value>
+          <line-attribute-name>warranty-item</line-attribute-name>
+          <line-attribute-value>false</line-attribute-value>
+        </line-name-value>
+      </line-item>
+      <line-item>
+        <line-no>90000</line-no>
+        <item-code>04092113</item-code>
+        <universal-product-code>7340055350518</universal-product-code>
+        <quantity>1</quantity>
+        <unit-of-measure>PCS</unit-of-measure>
+        <base-price>0</base-price>
+        <line-tax1>0</line-tax1>
+        <line-name-value>
+          <line-attribute-name>warranty-item</line-attribute-name>
+          <line-attribute-value>false</line-attribute-value>
+        </line-name-value>
+      </line-item>
+      <line-item>
+        <line-no>100000</line-no>
+        <item-code>04092114</item-code>
+        <universal-product-code>7340055350556</universal-product-code>
+        <quantity>1</quantity>
+        <unit-of-measure>PCS</unit-of-measure>
+        <base-price>0</base-price>
+        <line-tax1>0</line-tax1>
+        <line-name-value>
+          <line-attribute-name>warranty-item</line-attribute-name>
+          <line-attribute-value>false</line-attribute-value>
+        </line-name-value>
+      </line-item>
+    </detail>
+  </sales-order-submission>
+  <transactionInfo>
+    <eventID>SerializeSalesOrders</eventID>
+  </transactionInfo>
+</message>

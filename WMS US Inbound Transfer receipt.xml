@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<message>
+  <message-header>
+    <message-id>1264786416</message-id>
+    <transaction-name>supplier-purchase-order-receipt</transaction-name>
+    <partner-name>zound-poreceipt</partner-name>
+    <source-url />
+    <create-timestamp>20181129030551</create-timestamp>
+    <response-request>0</response-request>
+  </message-header>
+  <supplier-purchase-order-receipt>
+    <header>
+      <customer-id>321583</customer-id>
+      <business-name />
+      <supplier-id>321583</supplier-id>
+      <supplier-name />
+      <warehouse-id>ZOU7</warehouse-id>
+      <customer-order-date />
+      <customer-order-type />
+      <purchase-order-information>
+        <purchase-order-number>TO4000307</purchase-order-number>
+      </purchase-order-information>
+    </header>
+    <detail>
+      <line-item>
+        <line-no>1</line-no>
+        <transaction-number>1264529738</transaction-number>
+        <item-code>04092186</item-code>
+        <request-quantity>464.0</request-quantity>
+        <receive-quantity>96.0</receive-quantity>
+        <receipt-date>20181128</receipt-date>
+        <unit-price>0.0</unit-price>
+      </line-item>
+      <line-item>
+        <line-no>1</line-no>
+        <transaction-number>1264529761</transaction-number>
+        <item-code>04092186</item-code>
+        <request-quantity>464.0</request-quantity>
+        <receive-quantity>72.0</receive-quantity>
+        <receipt-date>20181128</receipt-date>
+        <unit-price>0.0</unit-price>
+      </line-item>
+      <line-item>
+        <line-no>1</line-no>
+        <transaction-number>1264561483</transaction-number>
+        <item-code>04092186</item-code>
+        <request-quantity>464.0</request-quantity>
+        <receive-quantity>88.0</receive-quantity>
+        <receipt-date>20181128</receipt-date>
+        <unit-price>0.0</unit-price>
+      </line-item>
+      <line-item>
+        <line-no>1</line-no>
+        <transaction-number>1264562234</transaction-number>
+        <item-code>04092186</item-code>
+        <request-quantity>464.0</request-quantity>
+        <receive-quantity>112.0</receive-quantity>
+        <receipt-date>20181128</receipt-date>
+        <unit-price>0.0</unit-price>
+      </line-item>
+      <line-item>
+        <line-no>1</line-no>
+        <transaction-number>1264562595</transaction-number>
+        <item-code>04092186</item-code>
+        <request-quantity>464.0</request-quantity>
+        <receive-quantity>80.0</receive-quantity>
+        <receipt-date>20181128</receipt-date>
+        <unit-price>0.0</unit-price>
+      </line-item>
+    </detail>
+  </supplier-purchase-order-receipt>
+</message>

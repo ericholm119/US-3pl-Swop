@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<message>
+  <message-header>
+    <message-id>80510</message-id>
+    <transaction-name>return-authorization-submission</transaction-name>
+    <partner-name>zound</partner-name>
+    <partner-password />
+    <source-url />
+    <create-timestamp>20181129</create-timestamp>
+    <response-request>1</response-request>
+  </message-header>
+  <return-authorization-submission>
+    <header>
+      <customer-id>565598</customer-id>
+      <business-name />
+      <customer-information>
+        <customer-first-name>Augustus Henry</customer-first-name>
+        <customer-last-name />
+        <customer-address1>700 East Airport Blvd Apt D-1</customer-address1>
+        <customer-address2 />
+        <customer-city>Sanford</customer-city>
+        <customer-state>FL</customer-state>
+        <customer-post-code>32773</customer-post-code>
+        <customer-country-code>US</customer-country-code>
+        <customer-phone1 />
+        <customer-fax />
+        <customer-email />
+      </customer-information>
+      <shipment-information>
+        <ship-first-name>Ingram Micro Mobility Inc</ship-first-name>
+        <ship-last-name />
+        <ship-address1 />
+        <ship-address2 />
+        <ship-city>Plainfield</ship-city>
+        <ship-state />
+        <ship-post-code />
+        <ship-country-code>US</ship-country-code>
+        <ship-phone1 />
+        <ship-email />
+        <ship-via />
+        <ship-request-date />
+        <ship-to-code />
+      </shipment-information>
+      <purchase-order-information>
+        <purchase-order-number>SR4000867</purchase-order-number>
+        <purchase-order-amount />
+        <currency-code />
+        <comments />
+      </purchase-order-information>
+      <order-header>
+        <customer-order-number>12100038048</customer-order-number>
+        <brightpoint-order-number />
+        <order-reference>WEB_US_FL</order-reference>
+        <customer-order-date>20181129</customer-order-date>
+        <order-type>WEB_AFTER</order-type>
+        <order-total-net>247.81</order-total-net>
+        <order-tax1>15.19</order-tax1>
+        <return-request-expiration-date />
+      </order-header>
+    </header>
+    <detail>
+      <line-item>
+        <line-no>10000</line-no>
+        <item-code>04091743</item-code>
+        <universal-product-code>7340055332972</universal-product-code>
+        <quantity>1</quantity>
+        <unit-of-measure>Pcs</unit-of-measure>
+        <imei />
+        <base-price>247.81</base-price>
+        <line-tax1>15.19</line-tax1>
+      </line-item>
+    </detail>
+  </return-authorization-submission>
+  <transactionInfo>
+    <eventID>SerializeSalesReturnOrders</eventID>
+  </transactionInfo>
+</message>

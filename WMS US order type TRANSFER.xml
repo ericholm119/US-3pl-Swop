@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<message>
+  <message-header>
+    <message-id>66544</message-id>
+    <transaction-name>supplier-purchase-order</transaction-name>
+    <partner-name>zound</partner-name>
+    <partner-password />
+    <source-url />
+    <create-timestamp>20181120</create-timestamp>
+    <response-request>0</response-request>
+  </message-header>
+  <supplier-purchase-order>
+    <header>
+      <customer-id>563539</customer-id>
+      <business-name>Zound Industries USA Inc</business-name>
+      <supplier-id>321583</supplier-id>
+      <supplier-name>Direct Shipment - China </supplier-name>
+      <warehouse-id>ZOU1</warehouse-id>
+      <customer-order-date>20190104</customer-order-date>
+      <purchase-order-information>
+        <purchase-order-number>TO4000304</purchase-order-number>
+        <purchase-order-create-date>20181120</purchase-order-create-date>
+        <purchase-order-amount>0</purchase-order-amount>
+        <currency-code>USD</currency-code>
+        <shipment-information>
+          <ship-from-code>DIR_CN</ship-from-code>
+        </shipment-information>
+      </purchase-order-information>
+    </header>
+    <detail>
+      <line-item>
+        <line-no>10000</line-no>
+        <item-code>1002487</item-code>
+        <universal-product-code>7340055358088</universal-product-code>
+        <request-quantity>800</request-quantity>
+        <receive-quantity>800</receive-quantity>
+        <scheduled-receipt-date>20190104</scheduled-receipt-date>
+        <unit-price>104.89</unit-price>
+      </line-item>
+      <line-item>
+        <line-no>20000</line-no>
+        <item-code>1002491</item-code>
+        <universal-product-code>7340055358248</universal-product-code>
+        <request-quantity>600</request-quantity>
+        <receive-quantity>600</receive-quantity>
+        <scheduled-receipt-date>20190104</scheduled-receipt-date>
+        <unit-price>155.4</unit-price>
+      </line-item>
+    </detail>
+  </supplier-purchase-order>
+  <transactionInfo>
+    <eventID>SerializePurchaseOrders</eventID>
+  </transactionInfo>
+</message>

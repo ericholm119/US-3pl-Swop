@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<message>
+  <message-header>
+    <message-id>288953699</message-id>
+    <transaction-name>sales-order-rejection</transaction-name>
+    <partner-name>zound</partner-name>
+    <source-url>http://www.brightpoint.com</source-url>
+    <create-timestamp>2018-11-28T17:58:03.731-05:00</create-timestamp>
+    <response-request>1</response-request>
+  </message-header>
+  <sales-order-rejection>
+    <header>
+      <customer-id>565598</customer-id>
+      <shipment-information>
+        <ship-first-name>Maja Edwards</ship-first-name>
+        <ship-address1>1492 Kentwood Cir</ship-address1>
+        <ship-city>Charleston</ship-city>
+        <ship-state>SC</ship-state>
+        <ship-post-code>29412</ship-post-code>
+        <ship-country-code>US</ship-country-code>
+        <ship-phone1>+18437300112</ship-phone1>
+        <ship-email>majadjelic@gmail.com</ship-email>
+        <ship-via>FX2D</ship-via>
+      </shipment-information>
+      <purchase-order-information>
+        <purchase-order-number>4745434438061362</purchase-order-number>
+        <account-description />
+        <comments>A System Error has occurred, please contact the administrator. Detailed Message "Customer rule reject rule if line reject applied"</comments>
+      </purchase-order-information>
+      <order-header>
+        <customer-order-number>12100042886</customer-order-number>
+        <customer-order-date>20181128</customer-order-date>
+        <brightpoint-order-number>186794281</brightpoint-order-number>
+        <order-reference>WEB_US_SC</order-reference>
+        <order-sub-total>0.0</order-sub-total>
+        <order-discount>0</order-discount>
+        <order-tax1>0.0</order-tax1>
+        <order-tax2>0.0</order-tax2>
+        <order-tax3>0.0</order-tax3>
+        <order-shipment-charge>0.0</order-shipment-charge>
+        <order-total-net>249.99</order-total-net>
+      </order-header>
+    </header>
+    <detail>
+      <line-item>
+        <line-no>10000</line-no>
+        <item-code>04091629</item-code>
+        <universal-product-code>7340055346726</universal-product-code>
+        <quantity>1</quantity>
+        <unit-of-measure>PCS</unit-of-measure>
+        <line-status>REJECTED</line-status>
+        <comments>Backorders not allowed on the account or buffer.  Please contract your account manager.</comments>
+        <rejection-date>20181128</rejection-date>
+        <base-price>249.99</base-price>
+        <line-discount>0.0</line-discount>
+        <line-tax1>0.0</line-tax1>
+        <line-tax2>0.0</line-tax2>
+        <line-tax3>0.0</line-tax3>
+      </line-item>
+    </detail>
+  </sales-order-rejection>
+  <transactionInfo>
+    <eventID>288953699</eventID>
+  </transactionInfo>
+</message>
